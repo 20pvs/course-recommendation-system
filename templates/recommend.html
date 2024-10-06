@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #FFD26F, #3677FF); /* Gradient background */
+            margin: 0;
+            margin-top: 100px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            margin-top: 50px;
+            font-size: 50px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        li {
+            margin-bottom: 10px;
+            background-color: #f44336;
+            padding: 10px;
+            border-radius: 5px;
+    
+        }
+        li:hover {
+            background-color: #4999ee;
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            transition: color 0.3s;
+            font-size: 25px;
+        }
+        a:hover {
+            color: #abcbec;
+        }
+    </style>
+</head>
+<body>
+    <h1>Top Courses Related to '{{ keyword }}'</h1>
+    <ul>
+        <!-- {% for course in courses.iterrows() %} -->
+            <li><a href="{{ course[1]['course url'] }}">{{ course[1]['course_name'] }}</a></li>
+        <!-- {% endfor %} -->
+    </ul>
+</body>
+</html>
