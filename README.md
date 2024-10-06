@@ -1,4 +1,5 @@
-### COURSE RECOMMENDATION SYSTEM ### are a great way to encourage learning habits, enhancing user experience, increasing customer satisfaction and utilizing data science for algorithmic solutions.
+### COURSE RECOMMENDATION SYSTEM 
+are a great way to encourage learning habits, enhancing user experience, increasing customer satisfaction and utilizing data science for algorithmic solutions.
 
  Encouraging learning Habits: Many people struggle to find course that interest them, leading to a decline in learning habits. Our project aims to address this by providing personalized course recommendations.
 
